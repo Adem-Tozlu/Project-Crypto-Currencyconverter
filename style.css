@@ -1,124 +1,109 @@
-body{
-    margin: 0 auto;
-    padding: 0;
-    background-image: url(images/background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    color: white;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;        
-    align-items: center;  
-    text-align: center; 
-   
-
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-image: url(images/background-min.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-img{
+img {
   width: 10rem;
-    margin-bottom: 0.2rem;
-  
+  margin-bottom: 0.2rem;
 }
-#conversion-form{
-    display: grid;
-    grid-template-columns: 1fr ;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    background-color: rgba(1, 10, 10, 0.644);
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    
-    text-align: start;
-    border-radius: 10px;
-    
-    box-shadow: 0 0 10px 5px #0a239293;
-}
+#conversion-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  background-color: rgba(1, 10, 10, 0.644);
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
 
+  text-align: start;
+  border-radius: 10px;
 
-.input-group-text{
-    background-color: #0044ff3f;
-    color: #fffbfb;
-    font-weight: bold;
-    border: none;
-    width: 3.5rem;
-    height: 2rem;
+  box-shadow: 0 0 10px 5px #0a239293;
 }
 
-
-.pt-3, .output {
-    
-    grid-column: span 4; 
-}
-#convert-from{
-    border: none;
-    width: 15rem;
-    height: 2rem;
-    margin-right: 1rem;
-    border-radius: 4px;
-    
+.input-group-text {
+  background-color: #0044ff3f;
+  color: #fffbfb;
+  font-weight: bold;
+  border: none;
+  width: 3.5rem;
+  height: 2rem;
 }
 
-#convert-to{
-    border: none;
-    width: 15rem;
-    height: 2rem;
-    border-radius: 4px;
+.pt-3,
+.output {
+  grid-column: span 4;
 }
-span{
-    display: inline-block;
-    padding-bottom: 1rem;
-    font-weight: bold;}
+#convert-from {
+  border: none;
+  width: 15rem;
+  height: 2rem;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
 
-    button{
-        padding-bottom: 1rem;
-    }
-    
+#convert-to {
+  border: none;
+  width: 15rem;
+  height: 2rem;
+  border-radius: 4px;
+}
+span {
+  display: inline-block;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
 
-
+button {
+  padding-bottom: 1rem;
+}
 
 
 @media (max-width: 600px) {
- 
-    #conversion-form {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 70vh;
-        
-        padding: 1rem ;
-        
-    }
-    #convert-from{
-        margin-right: 0;
-    }
-    .select-field {
-        width: 100% !important;
-        
-    }
-    .pt-3, .output{
-        width: 100%;
-        
-    }
- 
-   
+  #conversion-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+
+    padding: 1rem;
+  }
+  #convert-from {
+    margin-right: 0;
+  }
+  .select-field {
+    width: 100% !important;
+  }
+  .pt-3,
+  .output {
+    width: 100%;
+  }
 }
 
-@media screen and (max-height:768px) {
-    body {
-        align-items: flex-start;
-    }
-    #conversion-form{
-      padding: 1rem;
-    
-    }
-   
-    img{
-        width: 6rem;
-    }
-    
+@media screen and (max-height: 768px) {
+  body {
+    align-items: flex-start;
+  }
+  #conversion-form {
+    padding: 1rem;
+  }
+
+  img {
+    width: 6rem;
+  }
 }
