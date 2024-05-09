@@ -1,0 +1,88 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(images/alex-fxrwJGMCz_g-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;        
+    align-items: center;  
+    text-align: center; 
+
+}
+img{
+  width: 10rem;
+}
+#conversion-form{
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    background-color: rgba(1, 10, 10, 0.267);
+    margin: 0 auto;
+    width: 35rem;
+    text-align: start;
+    border-radius: 10px;
+    
+    box-shadow: 0 0 10px 5px #0f000070;
+}
+
+
+.input-group-text{
+    background-color: #0044ff3f;
+    color: #fffbfb;
+    font-weight: bold;
+    border: none;
+    width: 3.5rem;
+}
+
+
+.pt-3, .output {
+    
+    grid-column: span 4; 
+}
+#convert-from{
+    border: none;
+    width: 15rem;
+    height: 2rem;
+    margin-right: 1rem;
+    
+}
+
+#convert-to{
+    border: none;
+    width: 15rem;
+    height: 2rem;
+}
+span{
+    display: inline-block;
+    padding-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+@media (max-width: 600px) {
+    #conversion-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem;
+    }
+    #convert-from{
+        margin-right: 0;
+    }
+    .select-field {
+        width: 100% !important;
+    }
+    .pt-3, .output{
+        width: 100%;
+    }
+}
