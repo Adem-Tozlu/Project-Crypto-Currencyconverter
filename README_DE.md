@@ -1,28 +1,69 @@
-# Währungsumrechner
+# Crypto-Währungsrechner
 
-In dieser Aufgabe erstellst du einen Währungsumrechner, der die Coinbase API verwendet, um zwischen verschiedenen Kryptowährungen und Fiat-Währungen zu konvertieren.
+# Project – Crypto-Währungsrechner
 
-## Aufgabe:
-Deine Aufgabe ist es, eine JavaScript-Anwendung zu entwickeln, die die Eingabe des Benutzers verwendet, um einen bestimmten Betrag einer ausgewählten Kryptowährung in eine andere ausgewählte Währung (z. B. USD, EUR) umzurechnen.
+Dies ist eine Lösung für eine Herausforderung bei der DCI(Digital Career Institut). Die Herausforderungen helfen Ihnen, Ihre Programmierfähigkeiten zu verbessern, indem Sie realistische Projekte erstellen.In dieser Aufgabe ging es darum einen Währungsrechner zu erstellen.Es wurde hierbei die API von Coinbase benutzt.
 
-## Anforderungen:
+## Inhaltsverzeichnis
 
-- Deine Anwendung sollte die in `index.html` bereitgestellte Schnittstelle nutzen. Sie enthält ein Auswahl-Dropdown für Kryptowährungen, ein Eingabefeld für den Betrag und eine Schaltfläche **Umrechnen**, um die Umrechnung auszulösen.
-- Ändere die Datei `index.html` nicht. Schreibe deinen gesamten Code in der Datei `solution.js`.
-- Implementiere deine Logik so, dass beim Drücken der Schaltfläche **Umrechnen** durch den Benutzer, deine Anwendung den Umrechnungskurs von der Coinbase API abruft und das Umrechnungsergebnis dem Benutzer anzeigt.
-- Verwende die [Coinbase API](https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-prices#get-spot-price), um den Spotpreis für die gewählte Kryptowährung gegen die ausgewählte Währung abzurufen.
+- [Übersicht](#Übersicht)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [Mein Prozess](#my-process)
+  - [Erstellt mit](#built-with)
+  - [Was ich gelernt habe](#what-i-learned)
+  - [Fortsetzung der Entwicklung](#continued-development)
+- [Autor](#Autor)
 
-## Anweisungen:
 
-- Führe eine GET-Anfrage an den folgenden Coinbase API-Endpunkt durch, um den Spotpreis abzurufen: `https://api.coinbase.com/v2/prices/{crypto}-{currency}/spot`. Ersetze `{crypto}` durch die ausgewählte Kryptowährung und `{currency}` durch die ausgewählte Währung.
-- Denke daran, mögliche Fehler zu behandeln, wie Netzwerkprobleme oder ungültige Benutzereingaben.
 
-Erwartete Ausgabe:
-![preview](./demo.gif)
+## Überblick
 
-## Punkte, die zu beachten sind:
+### Bildschirmfoto
 
-- Mach dich mit der Coinbase API-Dokumentation vertraut, um zu verstehen, wie du Spotpreise abrufen kannst.
-- Beachte die API-Nutzungsbeschränkungen. Zu viele Anfragen in zu kurzer Zeit können deinen Zugang zur API vorübergehend blockieren.
+![Screenshot](images/desktop-ansicht.png)
+![Screenshot](images/mobile-ansicht.png)
 
-## Viel Erfolg!
+
+### Links
+
+- Lösungs-URL: [Github-Lösungen](https://github.com/Adem-Tozlu/Project-Crypto-Currencyconverter)
+- Live-Site-URL: [Website Währungsrechner](https://project-crypto-currencyconverter.vercel.app/)
+
+## Mein Prozess
+
+### Gebaut mit
+
+- Semantisches HTML5-Markup
+- Benutzerdefinierte CSS-Eigenschaften
+- Bootstrap
+- Javascript
+- Mobile-First-Workflow
+
+
+### Was ich gelernt habe
+
+
+Im Laufe dieses Projekts konnte ich meine Kompetenzen in folgenden Bereichen deutlich erweitern:
+
+- CSS: Durch die intensive Auseinandersetzung mit den Gestaltungsmöglichkeiten von CSS habe ich mein Wissen und meine Fähigkeiten in diesem Bereich erheblich vertieft.
+
+- Javascript: Die aktive Anwendung von Javascript im Projekt hat mir wertvolle Erfahrungen im Umgang mit dieser Programmiersprache vermittelt.
+
+- APIs: Durch die Integration von APIs in das Projekt habe ich praktische Kenntnisse in der Nutzung von Schnittstellen zur Datenübertragung und -verarbeitung gewonnen.
+
+- DOM: Die Arbeit mit dem DOM (Document Object Model) hat mein Verständnis der Struktur und Funktionsweise von Webseiten auf HTML-Basis verbessert.
+
+Zusammenfassend lässt sich sagen, dass dieses Projekt einen wichtigen Beitrag zu meiner fachlichen Weiterentwicklung geleistet hat.
+
+
+### Weiterentwicklung
+
+In Zukunft plane ich, meine Fähigkeiten im CSS-Bereich sowie auch Javascript zu verbessern. Mein Ziel ist es, komplexere Websites zu erstellen und diese besser zu gestalten.
+
+
+## Autor
+
+- Website - [Github](https://github.com/Adem-Tozlu)
+- Frontend-Mentor – [@Adem-Tozlu](https://www.frontendmentor.io/profile/Adem-Tozlu)
+- Linkedin - [@Adem-Tozlu](https://www.linkedin.com/in/adem-tozlu-8906b52a5)
