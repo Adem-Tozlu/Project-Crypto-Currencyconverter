@@ -49,13 +49,13 @@ This is a solution to a challenge at the DCI (Digital Career Institute). The cha
 
 During the course of this project, I was able to significantly expand my skills in the following areas:
 
-    CSS: Through intensive engagement with the design possibilities of CSS, I have considerably deepened my knowledge and skills in this area.
+  CSS: Through intensive engagement with the design possibilities of CSS, I have considerably deepened my knowledge and skills in this area.
 
-    Javascript: The active application of Javascript in the project has given me valuable experience in dealing with this programming language.
+  Javascript: The active application of Javascript in the project has given me valuable experience in dealing with this programming language.
 
-    APIs: By integrating APIs into the project, I have gained practical knowledge in using interfaces for data transmission and processing.
+  APIs: By integrating APIs into the project, I have gained practical knowledge in using interfaces for data transmission and processing.
 
-    DOM: Working with the DOM (Document Object Model) has improved my understanding of the structure and functionality of HTML-based web pages.
+   DOM: Working with the DOM (Document Object Model) has improved my understanding of the structure and functionality of HTML-based web pages.
 
 In summary, it can be said that this project has made an important contribution to my professional development.
 
