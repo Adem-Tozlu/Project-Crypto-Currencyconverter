@@ -22,8 +22,6 @@ Dies ist eine Lösung für eine Herausforderung bei der DCI(Digital Career Insti
 ### Bildschirmfoto
 
 ![Screenshot](images/desktop-ansicht.png)
-![Screenshot](images/mobile-ansicht.png)
-
 
 ### Links
 
