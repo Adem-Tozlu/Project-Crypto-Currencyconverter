@@ -23,6 +23,11 @@ Dies ist eine Lösung für eine Herausforderung bei der DCI(Digital Career Insti
 
 ![Screenshot](images/Crypto-removebg-preview.png)
 
+
+
+### Bildschirmfoto
+![Screenshot](images/desktop-ansicht.png)
+
 ### Links
 
 - Lösungs-URL: [Github-Lösungen](https://github.com/Adem-Tozlu/Project-Crypto-Currencyconverter)

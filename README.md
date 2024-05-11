@@ -24,6 +24,10 @@ This is a solution to a challenge at the DCI (Digital Career Institute). The cha
 
 ![Screenshot](images/Crypto-removebg-preview.png)
 
+
+### Screenshot
+![Screenshot](images/desktop-ansicht.png)
+
 ### Links
 
 - Solution URL: [Github Solutions](https://github.com/Adem-Tozlu/Project-Crypto-Currencyconverter)
