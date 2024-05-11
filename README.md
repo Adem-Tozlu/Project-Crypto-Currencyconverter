@@ -22,7 +22,7 @@ This is a solution to a challenge at the DCI (Digital Career Institute). The cha
 
 ### Screenshot
 
-![Screenshot](images/desktop-ansicht.png)
+![Screenshot](images/Crypto-removebg-preview.png)
 
 ### Links
 
