@@ -9,7 +9,7 @@ This is a solution to a challenge at the DCI (Digital Career Institute). The cha
 
 - [Overview](#Overview)
   - [Screenshot](#screenshot)
-  - [Left](#left)
+  - [Links](#links)
 - [My Process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,7 +24,7 @@ This is a solution to a challenge at the DCI (Digital Career Institute). The cha
 
 ![Screenshot](images/desktop-ansicht.png)
 
-### Left
+### Links
 
 - Solution URL: [Github Solutions](https://github.com/Adem-Tozlu/Project-Crypto-Currencyconverter)
 - Live Site URL: [Website Crypto-Currency Converter](https://project-crypto-currencyconverter.vercel.app/)
